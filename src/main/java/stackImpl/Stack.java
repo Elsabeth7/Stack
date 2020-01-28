@@ -1,6 +1,6 @@
 package stackImpl;
 
-public class LinkedList {
+public class Stack {
 
 	public int size() {
 		

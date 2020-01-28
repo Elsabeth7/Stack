@@ -1,14 +1,17 @@
-package stackImpl;
+package stackImplTest;
 
 import org.junit.Assert;
 import org.junit.Test;
 
+import stackImpl.Stack;
+
 public class StackTest {
 	@Test
 	public void testStack_InitialSize() {
-		LinkedList list = new LinkedList();
-		Assert.assertEquals(0, list.size());
+		Stack stack = new Stack();
+		Assert.assertEquals(0, stack.size());
 	}
 
+	
 	
 }
