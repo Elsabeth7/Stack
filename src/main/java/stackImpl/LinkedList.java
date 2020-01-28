@@ -1,0 +1,10 @@
+package stackImpl;
+
+public class LinkedList {
+
+	public int size() {
+		
+		return 0;
+	}
+
+}
